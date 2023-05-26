@@ -180,7 +180,7 @@ def hoga_check():
   print("\033[38;5;46m  ❥▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃❦")
   print("\x1b[1;92m  ➠  𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐈𝐒\033[38;5;46m : "+id) 
   try: 
-    httpCaht = requests.get("https://github.com/SAIFUL-HACKER420/aprooval.txt/blob/main/Aprooval.txt").text 
+    httpCaht = requests.get("https://github.com/Babumia420/BABUMIA-Approved/blob/main/Approved.txt").text 
     if id in httpCaht: 
       print("\x1b[1;96m  ➠   𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐒𝐓𝐀𝐓𝐔𝐒: 𝐀𝐂𝐓𝐈𝐕𝐄  \033[97;1m  ✔ ") 
       msg = str(os.geteuid()) 
